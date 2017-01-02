@@ -1,0 +1,4 @@
+# For a static IP, look at docker network command
+# http://stackoverflow.com/questions/27937185/assign-static-ip-to-docker-container
+docker create --name ubuntu-desktop ubuntu-desktop
+docker start ubuntu-desktop
